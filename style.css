@@ -1,6 +1,9 @@
+:root{
+    --primaryColor: rgb(150, 146, 146);
+    --hoverPrimaryColor: rgb(61, 60, 60);
+}
 .container-fluid{
     height: 100vh;
-    --primaryColor: grey;
     background-color: var(--primaryColor);
     display: flex;
     justify-content: center;
@@ -20,6 +23,21 @@
     background-color: var(--primaryColor);
     border-color: var(--primaryColor);
 
+}
+.btn-primary:hover{
+    background-color: var(--hoverPrimaryColor) !important;
+    border-color: var(--primaryColor) !important;
+    outline:none !important;
+    box-shadow: none;
+}
+.button:active, 
+ button:active,
+.button:focus, 
+ button:focus
+{
+    background-color: var(--primaryColor) !important;
+    border:none !important;
+    outline:none !important;
 }
 .right{
     float: right;
