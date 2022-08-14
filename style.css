@@ -1,6 +1,6 @@
 .container-fluid{
     height: 100vh;
-    --primaryColor: aqua;
+    --primaryColor: grey;
     background-color: var(--primaryColor);
     display: flex;
     justify-content: center;
