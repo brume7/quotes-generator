@@ -1,0 +1,25 @@
+.container-fluid{
+    height: 100vh;
+    --primaryColor: aqua;
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    background-color: white;
+    height: 250px;
+    border-radius: 5px ;
+    margin: auto;
+}
+.card-body{
+    padding: 10px;
+}
+.btn-primary{
+    color: white;
+    background-color: var(--primaryColor);
+
+}
+.right{
+    float: right;
+}
